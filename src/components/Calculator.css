@@ -1,0 +1,55 @@
+.calculator {
+    width: 650px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .display {
+    height: 60px;
+    background-color: #222;
+    color: white;
+    font-size: 2em;
+    text-align: right;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr); /* Adjust this value to match the number of columns you want */
+    gap: 5px;
+  }
+  
+  .button {
+    background-color: #444;
+    border: none;
+    padding: 15px;
+    font-size: 1.2em;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  .button:active {
+    background-color: #666;
+  }
+  
+  .button:nth-child(odd) {
+    background-color: #555;
+  }
+  
+  .button:nth-child(odd):hover {
+    background-color: #666;
+  }
+  
